@@ -88,9 +88,11 @@
 }
 
 #about .img-photo {
+  position: absolute;
     width: 270px;
     height: 200px;
-    margin: 10px auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #about .img-photo img {
