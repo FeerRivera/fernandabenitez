@@ -1,627 +1,491 @@
-.navbar-nav {
-    font-size: 13px;
-}
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Montserrat');
 
-#main {
-    height: 100vh;
-}
-
-#main .row {
-    color: #000000;
-}
-.sticky-top {
-    background-color: #000000
-;
-}
-#main .col {
-    background-color: inherit;
-    max-width: 100%;
-    margin: 50% auto;
-    padding: 10px 0;
-    height: 100px;
-}
-
-#main .col .titulo1 {
-    margin: 100px 50%;
-    font-size: 27px;
-    font-weight: 500;
-}
-#main .col .titulo2 {
-  margin: 0px 5%;
-  font-size: 27px;
-  font-weight: 500;
-}
-
-#main .col .titulo3 {
-    margin: 0px 26%;
-    font-size: 10px
-}
-#main .col .titulo4 {
-    margin: 0px 27%;
-    font-size: 10px
-}
-#main .col .cv{
-    margin: 0px 34%;
-    padding: 1%;
-    display: inline-block;
-}
-#main .col .cv a{
-    padding: 5%;
-    background-color: #333399;
-    color: #F0EBD8;
-    text-decoration: none;
-    font-size: 10px;
-    border-radius: 15px;
-}
-#main .col .cv i{
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 10px;
-}
-
-#main .col span{
-    color: #F0EBD8
-}
-#about {
-    background-color: #ffffff;
-    padding: 20px 0;
-}
-
-#about h3 {
-    text-align: center;
-    font-size: 25px;
-}
-
-#about .img-photo {
-  position: absolute;
-    width: 270px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#about .img-photo img {
-    width: 250px;
-    height: 190px;
-    margin: 5px 10px;
-}
-
-#about p {
-    text-align: justify;
-    font-size: 15px;
-    margin: 5px 20px;
-}
-
-#about .cv{
-    margin: 15px 20%;
-    padding: 1%;
-    display: inline-block;
-}
-#about .cv a{
-    padding: 5%;
-    background-color: #333399;
-    color: #F0EBD8;
-    text-decoration: none;
-    font-size: 15px;
-    border-radius: 15px;
-    margin: 0 20px;
-}
-#about .cv i{
-    display: inline;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 15px;
-}
-#habilidades {
-    background-color: #ffffff;
-    padding: 15px 0;
-}
-
-#habilidades h3 {
-    text-align: center;
-    font-size: 25px;
-}
-
-#habilidades .col-6 .titulo {
-    margin: 0 0 15px 0;
-    color: #000000;
-}
-
-#habilidades .col-6,
-#habilidades .col-12 {
-    margin: 10px 0;
-    color: #000000;
-}
-
-#habilidades i {
-    font-size: 50px;
-    color: #1D2D44;
-}
-
-#habilidades .imgIconoF img {
-    width: 40px;
-    height: 40px;
-    margin: 3px 2px;
-}
-#habilidades .imgIconoG img {
-    width: 40px;
-    height: 45px;
-    margin:4px 2px;
-}
-#habilidades .imgIconoB img {
-    width: 40px;
-    height: 45px;
-    margin: 4px 2px;
-}
-#habilidades .imgIconoN img {
-    width: 100px;
-    height: 40px;
-    margin: 6% 2px;
-}
-
-#project {
-    text-align: center;
-    padding: 50px 0;
-
-}
-
-#project .fila1,#project .fila2,#project .fila3{
-   background-color: rgba(254, 254, 255)
-
-}
-#project .fila1 {
-    margin: 10px 0px;
-}
-
-#project .fila1 img {
-    width: 160px;
-    height: 90px;
-    margin: 10px 50px;
-}
-
-#project .fila1 h2 {
-    text-align: center;
-    margin: 5px 0;
-    font-size: 20px;
-}
-
-#project .fila1 p {
-    text-align: center;
-    font-size: 10px;
-    margin-top: 10px
-}
-#project .fila1 .contenido,
-#project .fila2 .contenido,
-#project .fila3 .contenido {
-    padding: 0px 25px;
-}
-#project .fila1 .links {
-    width: 200px;
-    padding: 5px;
-    color: white;
-    font-size: 15px;
-    margin: 5px auto;
-    display: flex;
-    justify-content: space-around
-}
-#project .fila1 .links .link1,#project .fila1 .links .link2 {
-    width: 80px;
-    height: 38px;
-}
-#project .fila1 .links .link1 a,#project .fila1 .links .link2 a {
-    border:1px solid #748CAB;
-    padding: 1px 10px;
-    background-color: #748CAB;
-    color: #F0EBD8;
-    font-size: 14px;
-}
-#project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5{
-    text-align: center;
-    color: #0D1321;
-    margin: 5px;
-    font-size: 12px
-}
-#project .hr1{
-	border: 0;
-    box-shadow: 0 0 5px 0 #8c8b8b;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-}
-#project .fila2 {
-    margin: 10px 0px;
-}
-
-#project .fila2 img {
-    width: 180px;
-    height: 90px;
-    margin: 20px 50px;
-}
-#project .fila2 h2 {
-    text-align: center;
-    margin: 5px 0;
-    font-size: 20px;
-}
-#project .fila2 p {
-    text-align: center;
-    font-size: 10px;
-    margin-top: 10px;
-}
-#project .fila2 .links {
-    width: 200px;
-    padding: 5px;
-    color: white;
-    font-size: 15px;
-    margin: 5px auto;
-    display: flex;
-    justify-content: space-around
-}
-#project .fila2 .links .link1,#project .fila2 .links .link2 {
-    width: 80px;
-    height: 38px;
-}
-#project .fila2 .links .link1 a,#project .fila2 .links .link2 a {
-    border:1px solid #748CAB;
-    padding: 1px 10px;
-    background-color: #748CAB;
-    color: #F0EBD8;
-    font-size: 14px;
-}
-#project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5{
-    text-align: center;
-    color: #0D1321;
-    margin: 5px;
-    font-size: 12px
-}
-#project .hr2{
-	border: 0;
-    box-shadow: 0 0 5px 0 #8c8b8b;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-}
-#project .fila3 {
-    margin: 10px 0px;
-}
-#project .fila3 img {
-    width: 160px;
-    height: 90px;
-    margin: 20px 50px;
-}
-#project .fila3 h2 {
-    text-align: center;
-    margin: 5px 0;
-    font-size: 20px;
-}
-#project .fila3 p {
-    text-align: center;
-    font-size: 10px;
-}
-#project .fila3 .links {
-    width: 200px;
-    padding: 5px;
-    color: white;
-    font-size: 15px;
-    margin: 5px auto;
-    display: flex;
-    justify-content: space-around
-}
-#project .fila3 .links .link1,#project .fila3 .links .link2 {
-    width: 80px;
-    height: 38px;
-}
-#project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
-    border:1px solid #748CAB;
-    padding: 1px 10px;
-    background-color: #748CAB;
-    color: #F0EBD8;
-    font-size: 14px;
-}
-#project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
-    text-align: center;
-    color: #0D1321;
-    margin: 5px;
-    font-size: 12px
-}
-
-#contactme {
-    background-color: #E84DE1
-;
-    padding: 5px 0;
-}
-#contactme .col-3, #contactme .col-2, #contactme .col-2, #contactme .col-1, #contactme .col-4{
-  padding: 0;
-}
-
-#contactme .fila1 .linke a,
-#contactme .fila1 .git a,
-#contactme .fila1 .mail a{
+html{
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-family: 'Exo+2|Montserrat', sans-serif;
+    margin: 0;
     padding: 0;
-    font-size: 12px;
 }
 
-#contactme .fila1 .guion{
-    padding-top: 11px;
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #090909;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 21.5px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+   
 }
-#contactme .fila1 .guion div{
-    width: 15px;
-    height: 5px;
+
+body{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+nav{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+li{
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 26px;
+    text-decoration: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.title-1{
+    text-align: center;   
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #090909;
+    border-bottom-style: ridge;
+    margin-block-end: 0em;
+}
+
+.title-2{
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    font-size: 25px;
+    color: #090909;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: block;
+}
+
+.start-1, .about-me-2, .skill-3, .portfolio-4, .contact-5{
+    padding-top: 65px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: block;
+    position: relative;
+    min-height: 90%;
+}
+
+
+.skill-3, .contact-5{
+    background-color: #F5F5F5; 
+}
+
+.portfolio-4{
+    text-align: center;
+}
+
+
+/* PRINCIPAL */
+
+.presentation-card{
+    height: auto;
+    width: 60%;
+    padding: 40px 10px;
+    position: relative;
+    text-align: left;
+}
+
+.image-profile{
+    width: 40%;
+    position: relative;
+}
+
+.greeting{
+    padding-top: 20px;
+    font-size: 80px;
+    color: #796EC5;
+    line-height: 90px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.slogan{    
+    font-size: 25px;
+    line-height: 2px;    
+}
+
+/* SOBRE MI */
+
+.content-information{
+    position: relative;
+    width: 100%;
+}
+
+.personal-information{
+    padding: 30px 120px;
+    height: auto;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+/* HABILIDADES */
+
+.content-skills{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.skill-tech, .skill-soft{    
+    padding: 0px;
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.img-skill{
+    height: 65px;
+    width: 65px;
+    padding: 0px 15px;
+}
+
+.content-icon-tech{
+    text-align: center;
+    display: block;
+    height: auto;
+}
+
+.content-icon-social{
+    text-align: center;
+    display: block;
+    height: auto;
+}
+
+.icon-description-tech, .icon-description-soft{
+    display: inline-block;
+    padding: 12px;
+    height: 115px;
+    width: 115px;
+    font-size: 14px;
+}
+
+/* PORTAFOLIO */
+
+.content-projects{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.content-projects .title-2{
+    padding-top: 10px;
+}
+
+.project-one, .project-two, .project-three{
+    position: relative;
+    width: 33.33%;
+    text-align: center;
+}
+
+.content-projects .project-one{
+    padding-right: 40px;
+}
+
+.content-projects .project-two{
+    padding: 0px 20px;
+}
+
+.content-projects .project-three{
+    padding-left: 40px;
+}
+
+.project-image img{
+    padding-top: 15px;
+    position: relative;
+    object-fit: cover;
+}
+
+.project-description{
+    position: relative;
     background-color: #ffffff;
-    font-size: 70px;
+    font-size: 16px;
+    text-align: justify;
+    width: 100%;
+    max-height: 190px;
 }
 
-#contactme a {
-    text-decoration: none;
+.link-github{
+    position: relative;
     color: #ffffff;
-}
-#contactme .fila1 .logo img{
-    width: 70px;
-    height: 30px;
-}
-#contactme .fila1 .logo{
-    padding-left: 10px;
+    display: flex;
+    width: 100%;
 }
 
-#contactme a:hover {
-    text-decoration: none;
-    color: #F0EBD8;
-}
-@media (min-width: 576px) {}
-
-@media (min-width: 768px) {
-    .navbar-expand-md .navbar-nav {
-
-        font-size: 20px;
-    }
+.link-github img{
+    height: 23px;
+    width: 23px;
+    padding: 0px 10px;
+    vertical-align: bottom;
 }
 
-@media (min-width: 992px) {
+.link-code-github, .link-demo-github{
+    height: 40px;  
+    color: #ffffff;
+    width: 100%;
+}
+
+.img-project{
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    min-height: 40px;
+    width: 99.5%;
+    font-size: 16px;
+    border-style: none;
+    background-color: #58da02;
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 
-    #header img {
-        width: 140px;
-        height: 60px;
+
+/* CONTACTO */
+
+.content-contact{
+    width: 100%;
+    height: auto;
+    position: relative; 
+}
+
+.p-contact{
+    display: block;
+    position: relative;
+    padding: 20px 200px;
+    text-align: center;
+}
+
+.content-contact img{
+    height: 40px;
+    width: 40px;
+    padding: 0px 20px;
+    vertical-align: bottom;
+}
+
+.icon-description-contact{
+    display: inline-block;
+    padding: 12px;
+    height: 120px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    header{
+        display: none;
     }
-    .opciones{
-        margin: 0 15px;
-    }
-    .navbar-expand-lg .navbar-nav {
-        font-size: 20px;
+    
+    .start-1, .about-me-2, .skill-3, .portfolio-4, .contact-5{
+        min-height: auto;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
-    #main .col {
-        max-width: 90%;
-        margin: 10% auto;
+    .presentation-card{
+        width: 100%;
+        padding: 0px;
     }
 
-    #main .col .titulo1 {
-        margin: 0px 15%;
-        font-size: 65px;
-        font-weight: 500;
+    .content-projects{
+        display: block;
     }
-    #main .col .titulo2 {
-        margin: 0px 26%;
-        font-size: 20px
+
+    .project-one, .project-two, .project-three{
+        width: 100%;
+        padding: 0px;
     }
-    #main .col .titulo3 {
-        margin: 0px 33%;
-        font-size: 20px
+
+    .content-projects .project-one{
+        padding-right: 0px;
     }
-    #main .col .titulo4 {
-        margin: 0px 33.6%;
-        font-size: 20px
+    
+    .content-projects .project-two{
+        padding: 0px 0px;
     }
-    #main .col .cv{
-        margin: 0px 38%;
-        padding: 1%;
+    
+    .content-projects .project-three{
+        padding-left: 0px;
+    }
+    
+    .content-contact .title-2{
+        font-size: 16px;
+    }
+
+    .p-contact{
+        padding: 0px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .content-contact img{
+        height: 20px;
+        width: 20px;
+        padding: 0px 10px;
+        align-items: center;
+    }
+
+    .icon-description-contact{
         display: inline-block;
-    }
-    #main .col .cv a{
-        padding: 5%;
-        background-color: #333399;
-        color: #F0EBD8;
-        text-decoration: none;
-        font-size: 20px;
-        border-radius: 15px;
-    }
-    #main .col .cv i{
-        display: inline;
-        margin-right: 5px;
-        font-size: 20px;
-    }
-
-    #main .col span{
-        color: #F0EBD8
-    }
-
-    #about {
-        padding: 50px 0;
-    }
-
-    #about .fila1 {
-        margin: 5px 0;
-    }
-
-    #about img {
-        width: 360px;
-        height: 300px;
-        margin: 5px 30%;
-    }
-
-    #about .fila2{
-        margin: 45px 0;
-    }
-    #about .texto-about p {
-        text-align: justify;
-        font-size: 20px;
-        margin: 10px 0;
-    }
-
-
-    #about .cv{
-        margin: 10px 20%;
-        padding: 2%;
-    }
-    #about .cv a{
-        padding: 5%;
-        background-color: #333399;
-        color: #F0EBD8;
-        text-decoration: none;
-        font-size: 25px;
-        border-radius: 15px;
-        margin: 0 20px;
-    }
-    #about .cv i{
-        display: inline;
-        margin-left: 5px;
-        margin-right: 5px;
-        font-size: 25px;
-    }
-    #habilidades .row {
-        padding: 30px 0;
-    }
-    #habilidades .col-lg-1 {
-       max-width: 85%;
-       margin: 0 5px
-    }
-
-    #habilidades i {
-        font-size: 80px;
-        margin: 0;
-    }
-
-    #habilidades .imgIconoF img {
-        width: 50px;
-        height: 70px;
-        margin: 7px 2px;
-    }
-    #habilidades .imgIconoG img {
-        width: 70px;
-        height: 70px;
-        margin: 5px 2px;
-    }
-    #habilidades .imgIconoB img {
-        width: 60px;
-        height: 70px;
-        margin: 4px 2px;
-    }
-    #habilidades .imgIconoN img {
-        width: 160px;
-        height: 70px;
-        margin: 4% 2px;
-    }
-    #project {
-        padding: 30px 0;
-    }
-
-    #project h3 {
-        text-align: center;
-        font-size: 60px;
-    }
-
-    #project .fila1,
-    #project .fila2  {
-        margin: 20px 0;
-        padding: 50px 35px;
-    }
-    #project .fila1 img,
-    #project .fila2 img,
-    #project .fila3 img  {
-        width: 520px;
-        height: 290px;
-        margin: 50px 10px;
-    }
-    #project .fila1 .contenido,
-    #project .fila2 .contenido,
-    #project .fila3 .contenido {
-        padding: 40px 25px;
-    }
-    #project .fila1 h2,
-    #project .fila2 h2,
-    #project .fila3 h2 {
-        font-size: 45px;
-        margin: 20px 0;
-    }
-    #project .fila1 p,
-    #project .fila2 p,
-    #project .fila3 p {
-        font-size: 18px;
-    }
-    #project .fila1 .links,
-    #project .fila2 .links,
-    #project .fila3 .links {
-        width: 350px;
-        padding: 10px;
-        font-size: 15px;
-        margin: 20px auto;
-    }
-    #project .fila1 .links .link1,#project .fila1 .links .link2,
-    #project .fila2 .links .link1,#project .fila2 .links .link2,
-    #project .fila3 .links .link1,#project .fila3 .links .link2 {
-        width: 280px;
+        padding: 5px;
         height: 80px;
-      padding: 0;
-      cursor: pointer;
-    }
-    #project .fila1 .links .link1 a,#project .fila1 .links .link2 a,
-    #project .fila2 .links .link1 a,#project .fila2 .links .link2 a,
-    #project .fila3 .links .link1 a,#project .fila3 .links .link2 a {
-        font-size: 25px;
-        padding: 2px 20px;
-    }
-    #project .fila1 .links .link1 h5, #project .fila1 .links .link2 h5,
-    #project .fila2 .links .link1 h5, #project .fila2 .links .link2 h5,
-    #project .fila3 .links .link1 h5, #project .fila3 .links .link2 h5{
-        margin: 1px 0;
-        font-size: 20px
-    }
-    #project .fila3{
-        margin: 20px 0;
-        padding: 50px 35px;
-    }
-
-    #contactme .row {
-        padding: 45px 0;
-    }
-    #contactme .fila1 .linke,
-    #contactme .fila1 .git,
-    #contactme .fila1 .mail{
-        padding-top: 5px;
-        padding-left: 20px
-    }
-    #contactme .fila1 .linke a,
-    #contactme .fila1 .git a,
-    #contactme .fila1 .mail a{
-        font-size: 30px;
-    }
-
-    #contactme .fila1 .guion{
-        padding-top: 25px;
-    }
-    #contactme .fila1 .guion div{
-        width: 70px;
-        height: 10px;
-        background-color: #ffffff;
-        font-size: 70px;
-    }
-    #contactme .fila1 .logo img{
-        width: 130px;
-        height: 50px;
-    }
-    #contactme .fila1 .logo{
-        padding-left: 105px;
+        width: 120px;
+        font-size: 10px;
+        text-align: center;
     }
 
 }
 
-@media (min-width: 1200px) {
 
-
-    #main .col {
-        padding: 20px 0;
-        height: 240px;
+@media only screen and (max-width: 360px) {
+   
+    .start-1, .about-me-2, .skill-3, .portfolio-4, .contact-5{
+        height: auto;
+        padding-left: 30px;
+        padding-right: 30px;
     }
-    .container {
-        max-width: 1240px;
+    .start-1{
+        height: 100%;
     }
 
+    header{
+        display: none;
+    }
+    
+    .greeting{
+        font-size: 45px;
+    }
+    
+    .slogan{    
+        font-size: 15px;
+        line-height: 2px;
+        width: 100%;
+    }
+
+    .personal-information{
+        padding: 10px 50px;
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    .content-skills{
+        display: block;
+    }
+
+    .skill-tech, .skill-soft{    
+        padding: 0px;
+        width: 100%;
+    }
+
+    .skill-soft{
+        border-left: 0;
+    }
+
+    .img-skill{
+        height: 45px;
+        width: 45px;
+        padding: 10px;
+    }
+
+    .content-icon-tech, .content-icon-social{
+        padding: 0px;
+    }
+
+    .content-icon-social{
+        border-left: 0px;
+    }
+
+    .icon-description-tech{
+        display: inline-block;
+        padding: 5px;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .icon-description-soft{
+        display: inline-block;
+        padding: 0px;
+        height: auto;    
+        height: 120px;
+        width: 120px;
+    }
+
+    .project-one, .project-two, .project-three{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .content-projects .project-one{
+        padding-right: 0px;
+    }
+    
+    .content-projects .project-two{
+        padding: 0px 0px;
+    }
+    
+    .content-projects .project-three{
+        padding-left: 0px;
+    }
+
+    .content-contact .title-2{
+        font-size: 14px;
+    }
+
+    .p-contact{
+        padding: 0px;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .content-contact img{
+        height: 20px;
+        width: 20px;
+        padding: 0px 10px;
+        align-items: center;
+    }
+
+    .icon-description-contact{
+        display: inline-block;
+        padding: 5px;
+        height: 80px;
+        width: 120px;
+        font-size: 10px;
+        text-align: center;
+    }
 }
